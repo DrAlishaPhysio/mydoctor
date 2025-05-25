@@ -1,2 +1,2 @@
 # mydoctor
-''physiotherapy and rehab website by Dr.Alisha''
+''Physiotherapy and rehab website by Dr.Alisha''
