@@ -1,6 +1,6 @@
 # mydoctor
 ''Physiotherapy and rehab website by Dr.Alisha''
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
