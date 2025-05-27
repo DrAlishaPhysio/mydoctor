@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Doctor - Physio Rehab by Dr. Alisha</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f4f8fc;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 1.5rem 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #caf0f8;
+      padding: 0.75rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0077b6;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #023e8a;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #0077b6;
+      color: white;
+      margin-top: 2rem;
+    }
+    input, textarea, button {
+      display: block;
+      width: 100%;
+      margin: 0.5rem 0 1rem 0;
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #023e8a;
+    }
+    h2 {
+      color: #0077b6;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 1rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .testimonial {
+      font-style: italic;
+      margin: 1rem 0;
+      border-left: 4px solid #0077b6;
+      padding-left: 1rem;
+    }
+    .testimonial strong {
+      display: block;
+      margin-bottom: 0.3rem;
+      font-style: normal;
+      color: #023e8a;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Doctor</h1>
+    <p>by <strong>Dr. Alisha</strong> — Your Personal Physio & Rehab Guide</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#exercises">Exercises</a>
+    <a href="#routine">Today's Routine</a>
+    <a href="#knowledge">Knowledge Hub</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#appointments">Appointments</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome!</h2>
+    <div class="card">
+      <p><strong>App Purpose:</strong> My Doctor is a user-friendly physiotherapy and rehabilitation guide for individuals seeking effective recovery solutions. It provides access to guided exercises, expert advice, daily rehab routines, and appointment booking features—all curated by <strong>Dr. Alisha</strong>.</p>
+      <p><strong>Quick Access:</strong></p>
+      <ul>
+        <li><a href="#exercises">Go to Exercise Library</a></li>
+        <li><a href="#routine">View Today's Rehab Routine</a></li>
+        <li><a href="#appointments">Book an Appointment</a></li>
+        <li><a href="#knowledge">Explore Health Knowledge Hub</a></li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1550831107-4e5ab5d0f47f?auto=format&fit=crop&w=900&q=80" alt="Physiotherapy session" />
+    </div>
+  </section>
+
+  <section id="exercises">
+    <h2>Exercise Library</h2>
+    <div class="card">
+      <p><strong>Orthopedic Conditions:</strong></p>
+      <ul>
+        <li><strong>Frozen Shoulder:</strong> Pendulum swings, Wall climbs</li>
+        <li><strong>Knee Osteoarthritis:</strong> Quad sets, Straight leg raise</li>
+        <li><strong>Low Back Pain:</strong> Cat-cow stretch, Pelvic tilts</li>
+      </ul>
+      <p><strong>Neurological Conditions:</strong></p>
+      <ul>
+        <li><strong>Stroke Rehab:</strong> Passive range of motion, Functional reach</li>
+        <li><strong>Parkinson's Disease:</strong> Rhythmic walking, Big movements</li>
+      </ul>
+      <p><strong>Post-Surgical Rehab:</strong></p>
+      <ul>
+        <li><strong>ACL Reconstruction:</strong> Heel slides, Ankle pumps</li>
+        <li><strong>THR/TKR:</strong> Glute sets, Seated knee bends</li>
+      </ul>
+      <p><strong>Pediatric Rehab:</strong></p>
+      <ul>
+        <li><strong>Cerebral Palsy:</strong> Mat activities, Weight shifting</li>
+        <li><strong>Developmental Delay:</strong> Balance tasks, Rolling practice</li>
+      </ul>
+      <p><strong>Geriatric Rehab:</strong></p>
+      <ul>
+        <li>Chair squats, Arm circles, Walking drills</li>
+      </ul>
+      <p><strong>Women's Health:</strong></p>
+      <ul>
+        <li><strong>Postnatal Recovery:</strong> Pelvic floor exercises, Core activation</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1596495577886-d920f1ee6b94?auto=format&fit=crop&w=900&q=80" alt="Exercise Library" />
+    </div>
+  </section>
+
+  <section id="routine">
+    <h2>Today's Rehab Routine</h2>
+    <div class="card">
+      <ul>
+        <li>Neck Tilts – 2 sets of 10</li>
+        <li>Wrist Circles – 3 sets of 15</li>
+        <li>Seated Marching – 3 sets of 10</li>
+        <li>Glute Bridges – 2 sets of 12</li>
+        <li>Toe Taps – 3 sets of 10</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80" alt="Rehab Routine" />
+    </div>
+  </section>
+
+  <section id="knowledge">
+    <h2>Knowledge Hub</h2>
+    <div class="card">
+      <p>Read doctor-approved tips and guidance for safe, effective recovery and long-term health curated by <strong>Dr. Alisha</strong>.</p>
+      <ul>
+        <li><strong>Hydration Tips:</strong> Staying hydrated helps muscle recovery and reduces fatigue during therapy.</li>
+        <li><strong>Nutrition for Rehab:</strong> Include protein, calcium, and anti-inflammatory foods to speed up healing.</li>
+        <li><strong>Sleep & Recovery:</strong> Aim for 7–8 hours of sleep; the body heals best during deep rest.</li>
+        <li><strong>Posture Awareness:</strong> Maintain correct posture during daily activities to avoid recurring issues.</li>
+        <li><strong>Home Safety:</strong> Use handrails, non-slip mats, and remove loose rugs to prevent falls during recovery.</li>
+        <li><strong>Mental Health:</strong> Stay positive and practice breathing or meditation to improve recovery outcomes.</li>
+        <li><strong>When to Seek Help:</strong> If you notice pain increase, swelling, or new symptoms, consult your physio or doctor.</li>
+        <li><strong>Daily Movement:</strong> Even gentle daily stretches and short walks can help maintain circulation and reduce stiffness.</li>
+        <li><strong>Screen Breaks:</strong> If you use a phone or computer for long periods, take 5-minute movement breaks every hour.</li>
+      </ul>
+      <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=900&q=80" alt="Knowledge Hub" />
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>Patient Testimonials</h2>
+    <div class="card">
+      <p class="testimonial"><strong>Priya S.:</strong> "Dr. Alisha helped me walk confidently again after my knee surgery. The rehab routine was simple and effective."</p>
+      <p class="testimonial"><strong>Ravi M.:</strong> "I used to suffer from chronic back pain. Thanks to this app, I'm now pain-free and more active."</p>
+      <p class="testimonial"><strong>Sara D.:</strong> "This is the most caring and professional physiotherapy support I’ve received. Highly recommended!"</p>
+    </div>
+  </section>
+
+  <section id="appointments">
+    <h2>Book an Appointment</h2>
+    <div class="card">
+      <form action="https://formspree.io/f/mayvlnov" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time" required />
+
+        <label for="message">Message / Symptoms:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Describe your symptoms or questions"></textarea>
+
+        <button type="submit">Book Appointment</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Doctor App by Dr. Alisha. All rights reserved.</p>
+  </footer>
+</body>
+</html>
