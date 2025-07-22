@@ -18,7 +18,8 @@
     <textarea name="message" id="message" rows="4" required></textarea><br><br>
 
     <button type="submit">Submit</button>
-  </form>
+  </form><form action="https://formspree.io/f/abc123xy" method="POST">
+
 </section>
  {
       font-family: Arial, sans-serif;
