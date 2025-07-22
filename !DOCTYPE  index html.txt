@@ -5,7 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Doctor - Physio Rehab</title>
   <style>
-    body {
+    body <section id="contact">
+  <h2>Book a Consultation</h2>
+  <form action="https://formspree.io/f/yourformid" method="POST">
+    <label for="name">Full Name:</label><br>
+    <input type="text" name="name" id="name" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" name="email" id="email" required><br><br>
+
+    <label for="message">Describe your issue or concern:</label><br>
+    <textarea name="message" id="message" rows="4" required></textarea><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+ {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
