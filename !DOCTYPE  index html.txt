@@ -30,7 +30,13 @@
       color: #0077b6;
       font-weight: bold;
     }
-    section {
+    section { <section id="appointments" class="animated">
+  <h2>Book an Appointment</h2>
+  <div class="card">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdExAMPLE/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+</section>
+
       padding: 2rem;
     }
     .card {
